@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.nodhan.exp3.UserActivity">
+
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="ID:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"/>
+        <TextView
+            android:id="@+id/viewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"/>
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"/>
+        <TextView
+            android:id="@+id/viewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"/>
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Department:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"/>
+        <TextView
+            android:id="@+id/viewDept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Designation:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"/>
+        <TextView
+            android:id="@+id/viewDesgn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"/>
+    </TableRow>
+    
+</TableLayout>
