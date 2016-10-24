@@ -69,8 +69,8 @@ public class DisplayFragment extends Fragment {
                 if (flag) {
                     dbConnection.deleteData(id);
                     flag = false;
-                } else if (checkForNull()){
-                        dbConnection.updateData(getData());
+                } else if (checkForNull()) {
+                    dbConnection.updateData(getData());
                 }
                 getActivity().finish();
             }
@@ -78,6 +78,11 @@ public class DisplayFragment extends Fragment {
         return view;
     }
 
+    /**
+     * Checks if EditText is filled or not
+     *
+     * @return true if not null, false if null
+     */
     private boolean checkForNull() {
         for (int i = 0; i < 4; i++) {
             String data = editTextArr[i].getText().toString();
@@ -89,6 +94,11 @@ public class DisplayFragment extends Fragment {
         return true;
     }
 
+    /**
+     * Gets data from EdiText's
+     *
+     * @return String array of data
+     */
     private String[] getData() {
         String data[] = new String[4];
         for (int i = 0; i < 4; i++) {
