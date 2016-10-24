@@ -11,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:hint="Username"
-        android:text="admin" />
+        android:hint="Username" />
 
     <EditText
         android:id="@+id/password"
@@ -21,8 +20,7 @@
         android:layout_below="@+id/user"
         android:layout_marginTop="30dp"
         android:hint="Password"
-        android:inputType="textPassword"
-        android:text="qwe" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/button"
