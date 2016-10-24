@@ -11,6 +11,12 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class DBConnection extends SQLiteOpenHelper {
 
+    /**
+     * Helper function to create a database object
+     *
+     * @param context
+     * @return database object
+     */
     public static DBConnection createDbConnection(Context context) {
         return new DBConnection(context, "employee", null, 1);
     }

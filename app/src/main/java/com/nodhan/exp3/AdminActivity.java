@@ -50,6 +50,9 @@ public class AdminActivity extends AppCompatActivity {
         setData();
     }
 
+    /**
+     * Sets the data in AdminActivity
+     */
     public void setData() {
         tableLayout = (TableLayout) findViewById(R.id.scrollTable); //Finding ScrollView
         tableLayout.removeAllViews();
